@@ -9,7 +9,7 @@ spec:
     kind: Deployment
     name: frontend      # your deployment
   minReplicas: 1
-  maxReplicas: 5        # adjust if you want more pods
+  maxReplicas: 15        # adjust if you want more pods
   metrics:
     - type: Resource
       resource:
